@@ -193,6 +193,6 @@ There are three main ways you can use Conductor when building durable, resilient
 
 ### [Create and Run Conductor Workers](docs/readme/workers.md)
 
-### [Create Conductor Workflows]
+### [Create Conductor Workflows](docs/readme/workflow.md)
 
 ### [Using Conductor in your Application]
