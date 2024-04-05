@@ -155,25 +155,8 @@ export CONDUCTOR_SERVER_URL=https://play.orkes.io/api
 - Orkes Conductor requires authentication. [Obtain the key and secret from the Conductor server](https://orkes.io/content/how-to-videos/access-key-and-secret) and set the following environment variables.
 
 ```cs
-authenticationSettings: new OrkesAuthenticationSettings(
-    KeyId: "key",
-    KeySecret: "secret"
-)
-```
-
-Everything related to server settings should be done within the Configuration class by setting the required parameter (when initializing an object) like this:
-
-```cs
-using Conductor.Api;
-using Conductor.Client;
-using Conductor.Client.Authentication;
-
-var configuration = new Configuration() {
-    BasePath = basePath,
-    AuthenticationSettings = null
-};
-
-var workflowClient = configuration.GetClient<WorkflowResourceApi>();
+export CONDUCTOR_AUTH_KEY=your_key
+export CONDUCTOR_AUTH_SECRET=your_key_secret
 ```
 
 Run the application and view the execution status from Conductor's UI Console.
