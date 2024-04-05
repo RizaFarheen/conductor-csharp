@@ -191,7 +191,7 @@ There are three main ways you can use Conductor when building durable, resilient
 2. Create Conductor workflows that implement application state - A typical workflow implements the saga pattern.
 3. Use Conductor SDK and APIs to manage workflows from your application.
 
-### [Create and Run Conductor Workers]
+### [Create and Run Conductor Workers](docs/readme/workers.md)
 
 ### [Create Conductor Workflows]
 
