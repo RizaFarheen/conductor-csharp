@@ -235,6 +235,8 @@ To Do
 
 #### Update Task Definition:
 
+```shell
 POST /api/metadata/taskdef -d @task_def.json
+```
 
 See [task_configure.cs] for a detailed working app.
